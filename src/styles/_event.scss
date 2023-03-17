@@ -3,20 +3,20 @@
 .event {
     padding: 80px 0;
 
-    &--Front-End {
+    &--Tema {
     background-image: linear-gradient(variables.$blue1, variables.$blue2 );
     }
 
-    &--UI-UX {
-    background-image: linear-gradient(variables.$blue2, variables.$pink);
+    &--Comida {
+    background-image: linear-gradient(variables.$blue2, variables.$green);
     }
 
-    &--Data-science {
-        background-image: linear-gradient(variables.$pink, variables.$yellow);
+    &--Bebida {
+        background-image: linear-gradient(variables.$green, variables.$yellow1);
         }
 
-    &--Backend {
-        background-image: linear-gradient(variables.$yellow, variables.$pink);
+    &--Diversao {
+        background-image: linear-gradient(variables.$yellow1, variables.$yellow2);
     }
 
     &--image-left {
