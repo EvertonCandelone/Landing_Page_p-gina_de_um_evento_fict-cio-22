@@ -10,18 +10,85 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./styles/main.scss">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header class="hero">
         <div class="container">
             <img class="hero__logo" src="./images/ebac_logo.svg" alt="EBAC">
             <p class="hero__text">
-                O maior evento de tecnologia começa em 10d 12h 7m 35s
+                Festa do Hulk começa em <span id="contador"></span>
             </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Adasdsad dsadasd as adasdasd
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Preço</b>
+                        apartir de 15kg de Ração
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        31 october 2023 as 19h
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Garanta sua vaga
+                </a>
+            </div>
         </div>
     </header>
+    <section class="event event--Front-End">
+        <div class="container" data-aos="fade-left">
+            <div class="event__detail">
+                <h2 class="event__detail__title">Front-End</h2>
+                <p class="event__detail__description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere ipsam libero quod? Pariatur praesentium, nisi nostrum dolorum accusamus consectetur, totam sed iste cupiditate adipisci natus aliquid quam tenetur laudantium veniam?
+                </p>
+            </div>
+            <img class="event__image" src="./images/frontend.png" alt="front-end">
+        </div>
+    </section>
+    <section class="event event--UI-UX event--image-left">
+        <div class="container" data-aos="fade-right">
+            <div class="event__detail">
+                <h2 class="event__detail__title">UI/UX</h2>
+                <p class="event__detail__description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere ipsam libero quod? Pariatur praesentium, nisi nostrum dolorum accusamus consectetur, totam sed iste cupiditate adipisci natus aliquid quam tenetur laudantium veniam?
+                </p>
+            </div>
+            <img class="event__image" src="./images/frontend.png" alt="front-end">
+        </div>
+    </section>
+    <section class="event event--Data-science">
+        <div class="container" data-aos="fade-left">
+            <div class="event__detail">
+                <h2 class="event__detail__title">Data Science</h2>
+                <p class="event__detail__description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere ipsam libero quod? Pariatur praesentium, nisi nostrum dolorum accusamus consectetur, totam sed iste cupiditate adipisci natus aliquid quam tenetur laudantium veniam?
+                </p>
+            </div>
+            <img class="event__image" src="./images/frontend.png" alt="front-end">
+        </div>
+    </section>
+    <section class="event event--Backend event--image-left">
+        <div class="container" data-aos="fade-right">
+            <div class="event__detail">
+                <h2 class="event__detail__title">Back-End</h2>
+                <p class="event__detail__description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere ipsam libero quod? Pariatur praesentium, nisi nostrum dolorum accusamus consectetur, totam sed iste cupiditate adipisci natus aliquid quam tenetur laudantium veniam?
+                </p>
+            </div>
+            <img class="event__image" src="./images/frontend.png" alt="front-end">
+        </div>
+    </section>
 
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     <script src="./scripts/main.js"></script>
 </body>
 </html>
